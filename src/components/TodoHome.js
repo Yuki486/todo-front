@@ -12,7 +12,7 @@ function TodoHome({ username }) {
     const navigate = useNavigate(); // ページ遷移用フック
 
     // const API_BASE_URL = 'http://localhost:8000'; // バックエンドAPIのベースURL
-    const API_BASE_URL = 'https://Yukipy1119.pythonanywhere.com';
+    const API_BASE_URL = 'https://Yukipy1119.pythonanywhere.com/';
     const token = localStorage.getItem('token'); // ログイン時に保存したトークンを取得
 
     /**
